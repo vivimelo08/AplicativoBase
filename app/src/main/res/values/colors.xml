@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de cores do app -->
+    <!-- TODO: Os grupos podem trocar as cores conforme o tema do aplicativo -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primaryColor">#1F5C99</color>
+    <color name="secondaryColor">#DCE6F1</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Tela 1 - Entrada de dados
+    TODO: Este é o layout inicial do aplicativo.
+    Cada grupo deve trocar os hints, textos e IDs conforme o tema do seu app.
+    Exemplo: android:hint="Nome do filme" / android:id="@+id/edtNomeFilme"
+    IMPORTANTE: Se mudar o ID aqui, mude também no MainActivity.java!
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <!-- Logo do app -->
+    <!-- TODO: Troque o src pela imagem da pasta drawable do seu grupo -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="Logo do app" />
+
+    <!-- Título da tela -->
+    <!-- TODO: Troque o texto pelo nome do seu app -->
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Campo 1 -->
+    <!-- TODO: Troque o hint e o ID pelo primeiro campo do seu tema -->
+    <EditText
+        android:id="@+id/edtCampo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o campo 1"
+        android:inputType="text"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Campo 2 -->
+    <!-- TODO: Troque o hint e o ID pelo segundo campo do seu tema -->
+    <EditText
+        android:id="@+id/edtCampo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite o campo 2"
+        android:inputType="text"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botão para avançar -->
+    <!-- TODO: Troque o texto do botão pelo que faz sentido no seu tema -->
+    <Button
+        android:id="@+id/btnAvancar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Avançar"
+        android:backgroundTint="@color/primaryColor"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

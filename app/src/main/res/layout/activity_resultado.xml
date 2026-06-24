@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Tela 2 - Resultado/Dados processados
+    TODO: Este layout mostra os dados recebidos da Tela 1.
+    Cada grupo deve trocar os textos e IDs conforme o tema do seu app.
+    IMPORTANTE: Se mudar o ID aqui, mude também no ResultadoActivity.java!
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/secondaryColor">
+
+    <!-- Título da Tela 2 -->
+    <!-- TODO: Troque pelo título que faz sentido no seu app -->
+    <TextView
+        android:id="@+id/txtTituloResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="16dp" />
+
+    <!-- Exibe o valor do Campo 1 -->
+    <TextView
+        android:id="@+id/txtCampo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo 1: "
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Exibe o valor do Campo 2 -->
+    <TextView
+        android:id="@+id/txtCampo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Campo 2: "
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Exibe o resultado final -->
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="@color/secondaryColor"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Botão voltar -->
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:backgroundTint="#555555"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

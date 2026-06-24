@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nome do aplicativo -->
+    <string name="app_name">AplicativoBase</string>
+
+    <!-- Strings obrigatórias para menus e navegação -->
+    <string name="action_settings">Configurações</string>
+    <string name="first_fragment_label">Primeira Tela</string>
+    <string name="second_fragment_label">Segunda Tela</string>
+
+    <!-- TODO: Cada grupo pode adicionar suas próprias strings aqui -->
+    <!-- Exemplo: -->
+    <!-- <string name="titulo_filme">App de Filmes</string> -->
+    <!-- <string name="titulo_notas">App de Notas</string> -->
+</resources>

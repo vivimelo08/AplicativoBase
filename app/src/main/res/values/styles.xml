@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema base do aplicativo -->
+    <!-- TODO: Os grupos podem trocar as cores para personalizar o visual -->
+    <style name="Base.Theme.AplicativoBase" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1F5C99</item>
+        <item name="colorSecondaryVariant">#1F5C99</item>
+    </style>
+
+    <!-- Tema aplicado ao app -->
+    <style name="Theme.AplicativoBase" parent="Base.Theme.AplicativoBase" />
+</resources>
